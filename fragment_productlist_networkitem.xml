@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:harman="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/network_signal_icon"
+        android:background="@drawable/wifi_drawable_bg"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/setupspeaker_wifisignal3"
+        android:layout_centerVertical="true"/>
+    <com.harman.hkconnect.ui.custom.TypefaceTextView
+        android:textSize="18sp"
+        android:id="@+id/network_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        harman:font_type="Roboto_Bold"/>
+</RelativeLayout>

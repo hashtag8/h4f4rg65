@@ -27,10 +27,13 @@
         android:id="@+id/content_bg"
         android:background="@drawable/background_blur"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:paddingStart="5dp">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:paddingStart="45dp"
+            android:paddingEnd="50dp">
             <LinearLayout
                 android:gravity="center"
                 android:orientation="vertical"

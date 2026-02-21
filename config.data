@@ -1,0 +1,107 @@
+{
+    "musicService": [
+        {
+            "nameRid": "SettingLibraryItem_Str",
+            "isShow": true,
+            "isSelected": true,
+            "isFree": true,
+            "isNew" : false,
+            "detailRid": "SettingLibraryItem_Str",
+            "iconForSettingRid" : "local_library_icon_settings",
+            "orderIndex":0,
+            "id": 100
+        },
+        {
+            "nameRid": "SettingDeezer_Str",
+            "isShow": true,
+            "isSelected": true,
+            "isFree": false,
+            "isNew" : false,
+            "detailRid": "SettingDeezer_Str",
+            "iconForSettingRid" : "deezer_icon_settings",
+            "orderIndex":2,
+            "id": 1
+        },
+        {
+            "nameRid": "kSettingQobuz_Str",
+            "isShow": true,
+            "isSelected": true,
+            "isFree": false,
+            "isNew" : false,
+            "detailRid": "kSettingQobuz_Str",
+            "iconForSettingRid" : "cobuz_icon_settings",
+            "orderIndex":3,
+            "id": 2
+        },
+        {
+            "nameRid": "SettingTidal_Str",
+            "isShow": true,
+            "isSelected": true,
+            "isFree": false,
+            "isNew" : false,
+            "detailRid": "SettingTidal_Str",
+            "iconForSettingRid" : "tidal_icon_settings",
+            "orderIndex":6,
+            "id": 5
+        },
+        {
+            "nameRid": "SettingJuke_Str",
+            "isShow": true,
+            "isSelected":true,
+            "isFree": false,
+            "isNew" : false,
+            "detailRid": "SettingJuke_Str",
+            "iconForSettingRid" : "juke_icon_settings_copy",
+            "orderIndex":3,
+            "id": 6
+        },
+        {
+            "nameRid": "SettingShoutCast_Str",
+            "isShow": true,
+            "isSelected": true,
+            "isFree": true,
+            "isNew" : true,
+            "detailRid": "SettingShoutCast_Str",
+            "iconForSettingRid" : "shoutcast_icon_settings",
+            "orderIndex":5,
+            "id": 7
+        },
+         {
+
+                            "nameRid": "DLNA_MediaServersScreenTitle",
+                            "isShow": true,
+                             "isSelected": true,
+                             "isFree": true,
+                             "isNew" : true,
+                             "iconHighlightRid" : "d_l_n_a_icon_big",
+                             "detailRid": "DLNA_MediaServersScreenTitle",
+                             "iconForSettingRid" : "d_l_n_a_icon_big",
+                             "orderIndex":7,
+                             "id": 8
+
+                },
+        {
+            "nameRid": "SettingSpotifyItem_Str",
+            "isShow": true,
+            "isSelected": true,
+            "isFree": true,
+            "isNew" : true,
+            "detailRid": "SettingSpotifyItem_Str",
+            "iconForSettingRid" : "spotify_big_icon",
+            "orderIndex":8,
+            "id":101
+        }
+    ],
+    "device": [
+        {
+            "module": "omni",
+            "version": "0.1.9.6",
+            "md5": "644EBDC3FE30DDC5E68158869139A7F6"
+        },
+        {
+            "module": "omniBar",
+            "version": "9.9.9.9",
+            "md5": "66779DAD2A8A4D0D45873D02D1C3EDDB"
+        }
+    ]
+}
