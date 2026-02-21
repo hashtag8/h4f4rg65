@@ -1,0 +1,14 @@
+package defpackage;
+
+/* JADX INFO: loaded from: classes.dex */
+class boh {
+    public final String a;
+    public final int b;
+    public final int c;
+
+    public boh(String str, int i, int i2) {
+        this.a = str;
+        this.b = i;
+        this.c = i2;
+    }
+}
